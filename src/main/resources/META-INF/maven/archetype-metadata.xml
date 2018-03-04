@@ -20,13 +20,13 @@
     <requiredProperty key="commandAliases">
       <defaultValue>mpc, mpc2, mpc3</defaultValue>
     </requiredProperty>
-    <requiredProperty key="pluginName" />
+    <requiredProperty key="pluginName">
       <defaultValue>MyPlugin</defaultValue>
     </requiredProperty>
-    <requiredProperty key="pluginAuthor" />
+    <requiredProperty key="pluginAuthor">
       <defaultValue>MyPluginDev</defaultValue>
     </requiredProperty>
-    <requiredProperty key="pluginDescription" />
+    <requiredProperty key="pluginDescription">
       <defaultValue>Just MyPlugin</defaultValue>
     </requiredProperty>
     <requiredProperty key="pluginWebsite">
