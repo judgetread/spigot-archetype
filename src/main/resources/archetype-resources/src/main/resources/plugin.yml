@@ -6,3 +6,9 @@ author: ${pluginAuthor}
 version: ${project.version}
 
 main: ${package}.${mainClass}
+
+commands:
+   ${commandName}:
+      default: true
+      description: ${commandDescription}
+      aliases: [${commandAliases}]

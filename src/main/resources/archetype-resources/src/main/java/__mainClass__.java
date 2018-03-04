@@ -1,16 +1,31 @@
 #set( $symbol_dollar = '$' )
 package ${package};
 
+import java.util.logging.Logger;
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * Don't forget to create documentation!
+ * Create documentation!
  */
-public class ${mainClass} extends JavaPlugin
-{
+public class ${mainClass} extends JavaPlugin {
+
+    private static ${mainClass} plugin;
+
     @Override
     public void onEnable()
     {
-        // TODO Let's get started!
+       plugin = this;
+
+       plugin.getCommand("${commandName}").setExecutor(new ${commandClass}());
+       Bukkit.getPluginManager().registerEvents(new ${listenerClass}(), plugin);
     }
+
+    /**
+     * Plugins instance.
+     */
+    public static ${mainClass} getPlugin(){
+        return plugin;
+    }
+
 }

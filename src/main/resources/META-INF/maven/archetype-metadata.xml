@@ -5,17 +5,38 @@
     <requiredProperty key="mainClass">
       <defaultValue>MyPlugin</defaultValue>
     </requiredProperty>
+    <requiredProperty key="listenerClass">
+      <defaultValue>MyPluginListener</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="commandClass">
+      <defaultValue>MyPluginCommand</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="commandName">
+      <defaultValue>myplugincommand</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="commandDescription">
+      <defaultValue>MyPluginCommand Description</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="commandAliases">
+      <defaultValue>mpc, mpc2, mpc3</defaultValue>
+    </requiredProperty>
     <requiredProperty key="pluginName" />
+      <defaultValue>MyPlugin</defaultValue>
+    </requiredProperty>
     <requiredProperty key="pluginAuthor" />
+      <defaultValue>MyPluginDev</defaultValue>
+    </requiredProperty>
     <requiredProperty key="pluginDescription" />
+      <defaultValue>Just MyPlugin</defaultValue>
+    </requiredProperty>
     <requiredProperty key="pluginWebsite">
-      <defaultValue>https://www.spigotmc.org</defaultValue>
+      <defaultValue>https://MyPlugin/sample</defaultValue>
     </requiredProperty>
     <requiredProperty key="spigotVersion">
-      <defaultValue>1.8.8-R0.1-SNAPSHOT</defaultValue>
+      <defaultValue>1.12.2-R0.1-SNAPSHOT</defaultValue>
     </requiredProperty>
     <requiredProperty key="javaVersion">
-      <defaultValue>1.7</defaultValue>
+      <defaultValue>1.8</defaultValue>
     </requiredProperty>
   </requiredProperties>
 
