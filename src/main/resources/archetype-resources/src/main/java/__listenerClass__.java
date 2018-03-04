@@ -4,6 +4,7 @@ package ${package};
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
 
 /** 
  * 
@@ -13,7 +14,7 @@ import org.bukkit.event.Listener;
  */
 public class ${listenerClass} implements Listener {
 
-    private static plugin = ${mainClass}.getPlugin();
+    private static ${mainClass} plugin = ${mainClass}.getPlugin();
 
     @EventHandler
     public void onPlayerJoinEvent(PlayerJoinEvent event) {

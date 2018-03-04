@@ -15,7 +15,7 @@ import org.bukkit.entity.Player;
  */
 public class ${commandClass} implements CommandExecutor {
 
-    private static plugin = ${mainClass}.getPlugin();
+    private static ${mainClass} plugin = ${mainClass}.getPlugin();
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
