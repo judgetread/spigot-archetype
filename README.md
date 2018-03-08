@@ -5,7 +5,7 @@ Maven archetype for creating Spigot plugins.
 To use the archetype locally, clone it and install it to your local repository using the following commands in an empty directory. After that, you may add it to your local catalog.
 
 ````
-git clone https://github.com/SkeletonEye/spigot-archetype.git .
+git clone https://github.com/judgetread/spigot-archetype.git .
 mvn install
 ````
 
